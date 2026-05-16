@@ -1,0 +1,176 @@
+[
+  {
+    "id": 1,
+    "title": "Hello World",
+    "difficulty": "easy",
+    "description": "Viết chương trình in ra dòng chữ 'Hello, World!' trên màn hình.",
+    "input": "Không có input",
+    "output": "Hello, World!",
+    "hint": "Sử dụng cout để in ra màn hình",
+    "testCases": [
+      {
+        "input": "",
+        "expectedOutput": "Hello, World!"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Cộng Hai Số",
+    "difficulty": "easy",
+    "description": "Viết chương trình đọc vào hai số nguyên và in ra tổng của chúng.",
+    "input": "Hai số nguyên a và b (cách nhau bởi dấu cách)",
+    "output": "Tổng của a và b",
+    "hint": "Sử dụng cin để nhập hai số, sau đó cộng chúng và in kết quả",
+    "testCases": [
+      {
+        "input": "5 3",
+        "expectedOutput": "8"
+      },
+      {
+        "input": "10 20",
+        "expectedOutput": "30"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Kiểm Tra Số Chẵn Lẻ",
+    "difficulty": "easy",
+    "description": "Viết chương trình đọc vào một số nguyên và kiểm tra xem nó là số chẵn hay số lẻ.",
+    "input": "Một số nguyên n",
+    "output": "In ra 'Chẵn' nếu n là số chẵn, 'Lẻ' nếu n là số lẻ",
+    "hint": "Sử dụng phép modulo (%) để kiểm tra: n % 2 == 0 là chẵn",
+    "testCases": [
+      {
+        "input": "4",
+        "expectedOutput": "Chẵn"
+      },
+      {
+        "input": "7",
+        "expectedOutput": "Lẻ"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Tính Giai Thừa",
+    "difficulty": "medium",
+    "description": "Viết chương trình tính giai thừa của một số nguyên n (n!).",
+    "input": "Một số nguyên n (0 ≤ n ≤ 10)",
+    "output": "Giai thừa của n",
+    "hint": "Giai thừa: n! = n × (n-1) × (n-2) × ... × 1, với 0! = 1",
+    "testCases": [
+      {
+        "input": "0",
+        "expectedOutput": "1"
+      },
+      {
+        "input": "5",
+        "expectedOutput": "120"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Tìm Số Lớn Nhất",
+    "difficulty": "easy",
+    "description": "Viết chương trình đọc vào ba số và tìm số lớn nhất trong ba số đó.",
+    "input": "Ba số nguyên a, b, c",
+    "output": "Số lớn nhất trong ba số",
+    "hint": "Sử dụng lệnh if để so sánh hoặc dùng hàm max()",
+    "testCases": [
+      {
+        "input": "3 9 5",
+        "expectedOutput": "9"
+      },
+      {
+        "input": "20 10 15",
+        "expectedOutput": "20"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Bảng Cửu Chương",
+    "difficulty": "medium",
+    "description": "Viết chương trình in ra bảng cửu chương từ 1 đến 10 cho một số cho trước.",
+    "input": "Một số nguyên n (1 ≤ n ≤ 10)",
+    "output": "Bảng cửu chương của n",
+    "hint": "Sử dụng vòng lặp for để in ra n × i (i từ 1 đến 10)",
+    "testCases": [
+      {
+        "input": "2",
+        "expectedOutput": "2 x 1 = 2\\n2 x 2 = 4\\n2 x 3 = 6\\n2 x 4 = 8\\n2 x 5 = 10\\n2 x 6 = 12\\n2 x 7 = 14\\n2 x 8 = 16\\n2 x 9 = 18\\n2 x 10 = 20"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Kiểm Tra Số Nguyên Tố",
+    "difficulty": "medium",
+    "description": "Viết chương trình kiểm tra xem một số có phải là số nguyên tố không.",
+    "input": "Một số nguyên n (n > 1)",
+    "output": "In ra 'Nguyên tố' hoặc 'Không phải nguyên tố'",
+    "hint": "Số nguyên tố chỉ chia hết cho 1 và chính nó. Kiểm tra từ 2 đến sqrt(n)",
+    "testCases": [
+      {
+        "input": "7",
+        "expectedOutput": "Nguyên tố"
+      },
+      {
+        "input": "10",
+        "expectedOutput": "Không phải nguyên tố"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Trung Bình Cộng",
+    "difficulty": "easy",
+    "description": "Viết chương trình đọc vào n số và tính trung bình cộng của chúng.",
+    "input": "Số lượng n, sau đó là n số nguyên",
+    "output": "Trung bình cộng của n số (với 2 chữ số thập phân)",
+    "hint": "Sử dụng vòng lặp để nhập n số, tính tổng, rồi chia cho n",
+    "testCases": [
+      {
+        "input": "3\\n10 20 30",
+        "expectedOutput": "20.00"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Đảo Ngược Số",
+    "difficulty": "medium",
+    "description": "Viết chương trình đảo ngược một số nguyên dương.",
+    "input": "Một số nguyên dương n",
+    "output": "Số sau khi đảo ngược",
+    "hint": "Lấy từng chữ số cuối cùng bằng modulo 10, sau đó chia cho 10",
+    "testCases": [
+      {
+        "input": "12345",
+        "expectedOutput": "54321"
+      },
+      {
+        "input": "100",
+        "expectedOutput": "1"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "ƯCLN và BCNN",
+    "difficulty": "hard",
+    "description": "Viết chương trình tính Ước Chung Lớn Nhất (ƯCLN) và Bội Chung Nhỏ Nhất (BCNN) của hai số.",
+    "input": "Hai số nguyên a và b",
+    "output": "ƯCLN(a,b) và BCNN(a,b)",
+    "hint": "Dùng thuật toán Euclid để tính ƯCLN. BCNN = (a × b) / ƯCLN",
+    "testCases": [
+      {
+        "input": "12 18",
+        "expectedOutput": "ƯCLN: 6, BCNN: 36"
+      }
+    ]
+  }
+]
